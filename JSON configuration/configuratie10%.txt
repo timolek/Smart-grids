@@ -1,0 +1,1337 @@
+[
+  {
+    "bundleId": "net.powermatcher.core",
+    "pid": "net.powermatcher.core.auctioneer.Auctioneer",
+    "factory": true,
+    "properties": {
+      "commodity": "electricity",
+      "agentId": "auctioneer",
+      "maximumPrice": 1.0,
+      "currency": "EUR",
+      "clusterId": "DefaultCluster",
+      "minimumPrice": 0.0,
+      "priceSteps": 100,
+      "minTimeBetweenPriceUpdates": 1000
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.Household",
+    "factory": true,
+    "properties": {
+      "agentId": "Household6",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator6"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.Household",
+    "factory": true,
+    "properties": {
+      "agentId": "Household3",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator3"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.Household",
+    "factory": true,
+    "properties": {
+      "agentId": "Household1",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator1"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.Household",
+    "factory": true,
+    "properties": {
+      "agentId": "Household4",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator4"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.Household",
+    "factory": true,
+    "properties": {
+      "agentId": "Household5",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator5"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.WindTurbine",
+    "factory": true,
+    "properties": {
+      "agentId": "WindTurbine",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.Household",
+    "factory": true,
+    "properties": {
+      "agentId": "Household9",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator9"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.Household",
+    "factory": true,
+    "properties": {
+      "agentId": "Household2",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator2"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.SolarPanel",
+    "factory": true,
+    "properties": {
+      "agentId": "SolarPanel2",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator2"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.Household",
+    "factory": true,
+    "properties": {
+      "agentId": "Household8",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator8"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.SolarPanel",
+    "factory": true,
+    "properties": {
+      "agentId": "SolarPanel1",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator1"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.Household",
+    "factory": true,
+    "properties": {
+      "agentId": "Household7",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator7"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.core",
+    "pid": "net.powermatcher.core.concentrator.Concentrator",
+    "factory": true,
+    "properties": {
+      "agentId": "concentrator",
+      "minTimeBetweenBidUpdates": 1000,
+      "desiredParentId": "auctioneer"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.core",
+    "pid": "net.powermatcher.core.concentrator.Concentrator",
+    "factory": true,
+    "properties": {
+      "agentId": "concentrator1",
+      "minTimeBetweenBidUpdates": 1000,
+      "desiredParentId": "concentrator"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.Household",
+    "factory": true,
+    "properties": {
+      "agentId": "Household10",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator10"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.core",
+    "pid": "net.powermatcher.core.concentrator.Concentrator",
+    "factory": true,
+    "properties": {
+      "agentId": "concentrator2",
+      "minTimeBetweenBidUpdates": 1000,
+      "desiredParentId": "concentrator"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.core",
+    "pid": "net.powermatcher.core.concentrator.Concentrator",
+    "factory": true,
+    "properties": {
+      "agentId": "concentrator3",
+      "minTimeBetweenBidUpdates": 1000,
+      "desiredParentId": "concentrator"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.core",
+    "pid": "net.powermatcher.core.concentrator.Concentrator",
+    "factory": true,
+    "properties": {
+      "agentId": "concentrator4",
+      "minTimeBetweenBidUpdates": 1000,
+      "desiredParentId": "concentrator"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.core",
+    "pid": "net.powermatcher.core.concentrator.Concentrator",
+    "factory": true,
+    "properties": {
+      "agentId": "concentrator5",
+      "minTimeBetweenBidUpdates": 1000,
+      "desiredParentId": "concentrator"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.core",
+    "pid": "net.powermatcher.core.concentrator.Concentrator",
+    "factory": true,
+    "properties": {
+      "agentId": "concentrator6",
+      "minTimeBetweenBidUpdates": 1000,
+      "desiredParentId": "concentrator"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.core",
+    "pid": "net.powermatcher.core.concentrator.Concentrator",
+    "factory": true,
+    "properties": {
+      "agentId": "concentrator7",
+      "minTimeBetweenBidUpdates": 1000,
+      "desiredParentId": "concentrator"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.core",
+    "pid": "net.powermatcher.core.concentrator.Concentrator",
+    "factory": true,
+    "properties": {
+      "agentId": "concentrator8",
+      "minTimeBetweenBidUpdates": 1000,
+      "desiredParentId": "concentrator"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.core",
+    "pid": "net.powermatcher.core.concentrator.Concentrator",
+    "factory": true,
+    "properties": {
+      "agentId": "concentrator9",
+      "minTimeBetweenBidUpdates": 1000,
+      "desiredParentId": "concentrator"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.core",
+    "pid": "net.powermatcher.core.concentrator.Concentrator",
+    "factory": true,
+    "properties": {
+      "agentId": "concentrator10",
+      "minTimeBetweenBidUpdates": 1000,
+      "desiredParentId": "concentrator"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.SolarPanel",
+    "factory": true,
+    "properties": {
+      "agentId": "SolarPanel3",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator3"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.SolarPanel",
+    "factory": true,
+    "properties": {
+      "agentId": "SolarPanel4",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator4"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.SolarPanel",
+    "factory": true,
+    "properties": {
+      "agentId": "SolarPanel5",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator4"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.SolarPanel",
+    "factory": true,
+    "properties": {
+      "agentId": "SolarPanel6",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator6"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.SolarPanel",
+    "factory": true,
+    "properties": {
+      "agentId": "SolarPanel7",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator7"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.SolarPanel",
+    "factory": true,
+    "properties": {
+      "agentId": "SolarPanel8",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator8"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.SolarPanel",
+    "factory": true,
+    "properties": {
+      "agentId": "SolarPanel9",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator9"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.SolarPanel",
+    "factory": true,
+    "properties": {
+      "agentId": "SolarPanel10",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator10"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV1",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator1"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV2",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator2"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV3",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator3"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV4",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator4"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV5",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator5"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV6",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator6"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV7",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator7"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV8",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator8"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV9",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator9"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV10",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator10"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV11",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator1"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV12",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator2"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV13",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator3"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV14",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator4"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV15",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator5"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV16",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator6"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV17",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator7"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV18",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator8"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV19",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator9"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV20",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator10"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV21",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator1"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV22",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator2"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV23",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator3"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV24",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator4"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV25",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator5"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV26",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator6"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV27",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator7"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV28",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator8"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV29",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator9"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV30",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator10"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV31",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator1"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV32",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator2"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV33",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator3"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV34",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator4"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV35",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator5"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV36",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator6"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV37",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator7"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV38",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator8"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV39",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator9"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV40",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator10"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV41",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator1"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV42",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator2"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV43",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator3"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV44",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator4"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV45",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator5"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV46",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator6"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV47",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator7"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV48",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator8"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV49",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator9"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV50",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator10"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV51",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator1"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV52",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator2"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV53",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator3"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV54",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator4"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV55",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator5"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV56",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator6"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV57",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator7"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV58",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator8"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV59",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator9"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV60",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator10"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV61",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator1"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV62",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator2"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV63",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator3"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV64",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator4"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV65",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator5"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV66",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator6"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV67",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator7"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV68",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator8"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV69",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator9"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV70",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator10"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV71",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator1"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV72",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator2"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV73",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator3"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV74",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator4"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV75",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator5"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV76",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator6"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV77",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator7"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV78",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator8"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV79",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator9"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV80",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator10"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV81",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator1"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV82",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator2"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV83",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator3"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV84",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator4"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV85",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator5"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV86",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator6"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV87",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator7"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV88",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator8"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV89",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator9"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV90",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator10"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV91",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator1"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV92",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator2"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV93",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator3"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV94",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator4"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV95",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator5"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV96",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator6"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV97",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator7"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV98",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator8"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV99",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator9"
+    }
+  },
+  {
+    "bundleId": "net.powermatcher.examples",
+    "pid": "net.powermatcher.examples.EV",
+    "factory": true,
+    "properties": {
+      "agentId": "EV100",
+      "bidUpdateRate": 5,
+      "desiredParentId": "concentrator10"
+    }
+  }
+ ]
