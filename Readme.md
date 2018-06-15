@@ -8,4 +8,6 @@ In 'raw simulation data' one can find all the text files that were created durin
 
 The data calculations that are done based on this raw data can be found in 'Data calculations'.
 
-The used configurations for the clusters for the simulations can be found in 'JSON configurations'. Note: the used for software fore the simulations is not openly available.
+The used configurations for the clusters for the simulations can be found in 'JSON configurations'. 
+
+Note: the used for software fore the simulations is not openly available.
