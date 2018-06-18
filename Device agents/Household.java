@@ -130,7 +130,7 @@ public class Household
 
         Calendar oldCal = Calendar.getInstance();
         oldCal.clear();
-        oldCal.set(2018, Calendar.JANUARY, 1, 00, 00, 00);
+        oldCal.set(2018, Calendar.JANUARY, 1, 00, 00, 00); // 2018 has to be changed depending on the current year or the simulated year.
         Date oldDate = oldCal.getTime();
         long oldDateMili = oldDate.getTime();
 
