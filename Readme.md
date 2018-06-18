@@ -4,7 +4,7 @@ In this repository the codes and raw data can be found for the Smart grids proje
 
 ## Getting started
 In the directionary called 'device agents' one can find the agents that are made for this project. The agents are used in combination with the PowerMatcher software which can be found over here: https://github.com/flexiblepower/powermatcher
-These agents can be used in combination with the 'example's library of the Powermatcher software. They can be added in the 'src' folder ofthis library and used in combination with the other agents. For more information about how to setup the PowerMatcher software look at the github-page of the PowerMatcher software itself.
+These agents can be used in combination with the 'example's library of the Powermatcher software. They can be added in the 'src' folder of this library and used in combination with the other agents. For more information about how to setup the PowerMatcher software look at the github-page of the PowerMatcher software itself.
 
 Note: the used for software for the simulations is not openly available. The agents can only be used in the current time.
 
