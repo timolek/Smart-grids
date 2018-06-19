@@ -36,7 +36,7 @@ public class EV
     extends BaseAgentEndpoint
     implements AgentEndpoint {
 
-    private static final String OUTPUT_FOLDER = "/Users/Timo-PC/Desktop/oktober10/"; // Has to by changed to the desired
+    private static final String OUTPUT_FOLDER = "/Users/Timo-PC/Desktop/oktober10/"; // Has to be changed to the desired
                                                                                      // output folder
 
     private static final Logger LOGGER = LoggerFactory.getLogger(EV.class);
